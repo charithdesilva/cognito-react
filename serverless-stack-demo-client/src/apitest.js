@@ -1,0 +1,12 @@
+apig-test \
+--username='charith.code@gmail.com' \
+--password='lispB612' \
+--user-pool-id='ap-southeast-2_lM8rZ0Qym' \
+--app-client-id='7afj23l9pslpgrps5phcebr496' \
+--cognito-region='ap-southeast-2' \
+--identity-pool-id='ap-southeast-2:7653bfa9-f91a-45b9-a0f6-202587de0445' \
+--invoke-url='https://f4ck7ev4b8.execute-api.ap-southeast-2.amazonaws.com/prod' \
+--api-gateway-region='ap-southeast-2' \
+--path-template='/notes' \
+--method='POST' \
+--body='{"content":"hello world","attachment":"hello.jpg"}'
